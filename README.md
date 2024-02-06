@@ -11,7 +11,7 @@ An LLM is unreliable.
 > These people are brimming with excitement about all the new problems that
 > LLMs are bringing to the table. -- [Why We Can't Have Nice Software](https://andrewkelley.me/post/why-we-cant-have-nice-software.html)
 
-[LeCun on 2023-02-13](https://twitter.com/ylecun/status/1625118108082995203) (780.8K views as of 2024-02-06):
+[LeCun on 2023-02-13](https://twitter.com/ylecun/status/1625118108082995203) (780.8K views as of 2024-02-06, [archived](https://web.archive.org/web/20230213173604/https://twitter.com/ylecun/status/1625118108082995203)):
 
 > My unwavering opinion on current (auto-regressive) LLMs
 > 1. They are useful as writing aids.
@@ -24,3 +24,5 @@ An LLM is unreliable.
 > 11. Warning that only a small superficial portion of human knowledge can ever be captured by LLMs.
 > 12. Being clear that better system will be appearing, but they will be based on different principles. They will not be auto-regressive LLMs.
 > [...]
+
+
