@@ -77,4 +77,33 @@ that may be used as hyperparameter), ...
 > [...] fast and accurate similarity search and retrieval of data based on their
 > vector distance or similarity.
 
+Use cases:
+
+* find images that are similar to a given image based on their visual content and style
+* find documents that are similar to a given document based on their topic and sentiment
+* find products that are similar to a given product based on their features and ratings
+
+> [...] To perform similarity search and retrieval in a vector database, you need
+to use a query vector that represents your desired information or criteria. The
+query vector can be either derived from the same type of data as the stored
+vectors (e.g., using an image as a query for an image database), or from
+different types of data (e.g., using text as a query for an image database).
+Then, you need to use a similarity measure that calculates how close or distant
+two vectors are in the vector space. The similarity measure can be based on
+various metrics, such as cosine similarity, euclidean distance, hamming
+distance, jaccard index.
+
+As a helper for an LLM:
+
+> One use case for storing information in a vector database is to enable large
+language models (LLMs) to generate more relevant and coherent text based on an
+AI plugin.
+
+Number of tools:
+
+* [pgvector](https://github.com/pgvector/pgvector), postgres 12+ extension,
+with [Go support](https://github.com/pgvector/pgvector-go), which in turn
+supports [sqlx](https://github.com/jmoiron/sqlx)
+* [milvus](https://github.com/milvus-io/milvus)
+
 ## word2vec
