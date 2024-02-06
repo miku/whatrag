@@ -1,10 +1,28 @@
-# An example RAG project using a vector database
+# Ouroboros
 
-> [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros)
+> [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), or how to build a
+> retrieval-augmented data generative AI pipeline from scratch
 
 ![](static/Chrysopoea.png)
 
-An LLM is unreliable.
+A large language model can be flaky, but they are amazing
+[compressors](https://arxiv.org/pdf/2309.10668.pdf). How do we use them
+approriately and efficiently?
+
+> Countless hours spent searching for documentation on peculiar, intellectually
+> uninteresting aspects; the efforts to learn an overly complicated API, often
+> without good reason; writing immediately usable programs that I would discard
+> after a few hours. These are all things I do not want to do, especially now,
+> with Google having become a sea of spam in which to hunt for a few useful
+> things. -- [http://antirez.com/news/140](http://antirez.com/news/140)
+
+[...]
+
+> I have also learned that LLMs are a bit like Wikipedia and all the video
+> courses scattered on YouTube: **they help those with the will, ability, and
+> discipline**, but they are of marginal benefit to those who have fallen behind.
+
+How do we learn, when and how to use this technology?
 
 > Have a peek at this blog post that is going around lately: [The pain points
 > of building a copilot](https://austinhenley.com/blog/copilotpainpoints.html)
