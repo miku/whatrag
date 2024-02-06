@@ -11,7 +11,7 @@ An LLM is unreliable.
 > These people are brimming with excitement about all the new problems that
 > LLMs are bringing to the table. -- [Why We Can't Have Nice Software](https://andrewkelley.me/post/why-we-cant-have-nice-software.html)
 
-[LeCun in 02/2023](https://twitter.com/ylecun/status/1625118108082995203) (780.8K views as of 2024-02-06):
+[LeCun on 2023-02-13](https://twitter.com/ylecun/status/1625118108082995203) (780.8K views as of 2024-02-06):
 
 > My unwavering opinion on current (auto-regressive) LLMs
 > 1. They are useful as writing aids.
@@ -22,6 +22,9 @@ An LLM is unreliable.
 > 6. Current LLMs should be used as writing aids, not much more.
 > 7. Marrying them with tools such as search engines is highly non trivial.
 > 8. There *will* be better systems that are factual, non toxic, and controllable. They just won't be auto-regressive LLMs.
-> 9. defending Galactica as a scientific writing aid.
+> [...]
 > 10. Warning folks that AR-LLMs make stuff up and should not be used to get factual advice.
 > 11. Warning that only a small superficial portion of human knowledge can ever be captured by LLMs.
+> 12. Being clear that better system will be appearing, but they will be based on different principles. They will not be auto-regressive LLMs.
+> 13. Why do LLMs appear much better at generating code than generating general text? Because, unlike the real world, the universe that a program manipulates (the state of the variables) is limited, discrete, deterministic, and fully observable. The real world is none of that
+> 14. Unlike what the most acerbic critics of Galactica have claimed: LLMs *are* being used as writing aids.; They *will not* destroy the fabric of society by causing the mindless masses to believe their made-up nonsense.; People will use them for what they are helpful with.
