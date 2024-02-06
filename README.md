@@ -18,10 +18,6 @@ An LLM is unreliable.
 > 6. Current LLMs should be used as writing aids, not much more.
 > 7. Marrying them with tools such as search engines is highly non trivial.
 > 8. There *will* be better systems that are factual, non toxic, and controllable. They just won't be auto-regressive LLMs.
-
-[...]
-
-> I have been consistent while:
 > 9. defending Galactica as a scientific writing aid.
 > 10. Warning folks that AR-LLMs make stuff up and should not be used to get factual advice.
 > 11. Warning that only a small superficial portion of human knowledge can ever be captured by LLMs.
