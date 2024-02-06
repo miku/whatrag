@@ -1,2 +1,2 @@
-# samplerag
-An example rag project using a vector database.
+# An example rag project using a vector database
+
