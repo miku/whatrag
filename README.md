@@ -1,5 +1,9 @@
 # An example RAG project using a vector database
 
+> [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros)
+
+![](static/Chrysopoea.png)
+
 An LLM is unreliable.
 
 > Have a peek at this blog post that is going around lately: [The pain points
