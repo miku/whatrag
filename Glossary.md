@@ -5,6 +5,20 @@
 ## faiss
 
 * library for efficient similarity search and clustering
+* [Faiss: A library for efficient similarity search](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/) (2017)
+
+> This month, we released Facebook AI Similarity Search (Faiss), a library that
+> allows us to quickly **search for multimedia documents that are similar to
+> each other** [...]
+
+> AI tools, like text embedding (word2vec) or convolutional neural net (CNN)
+> descriptors trained with deep learning, generate high-dimensional vectors. [...]
+
+> This is where similarity search kicks in. The vector representation for
+> images is designed to produce similar vectors for similar images, where
+> similar vectors are defined as those that are nearby in Euclidean space.
+
+Also:
 
 > Faiss is a library for efficient similarity search and clustering of dense
 > vectors. It contains algorithms that search in sets of vectors of any size,
@@ -21,6 +35,13 @@ systems handling complex data such as images or videos, which are typically
 represented by high-dimensional features and require specific indexing
 structures. This paper tackles the problem of better utilizing GPUs for this
 task.
+
+----
+
+> TODO: Take gutenberg texts, chop them into paragraphs, calculate embedding
+> for each paragraph, use that for indexing, then find "similar passages" in the corpus.
+
+----
 
 ## fasttext
 
