@@ -5,9 +5,24 @@
 
 ![](static/Chrysopoea.png)
 
-A large language model can be flaky, but they are amazing
-[compressors](https://arxiv.org/pdf/2309.10668.pdf). How do we use them
-approriately and efficiently?
+A large language model can be flaky
+[compressors](https://arxiv.org/pdf/2309.10668.pdf). How to improve reliability
+of the output? One approach is to retrieval-augmented generation (Meta, 2020).
+
+> Underpinning all foundation models, including LLMs, is an AI architecture
+> known as the **transformer**. It turns heaps of raw data into a compressed
+> representation of its basic structure. Starting from this raw representation,
+> a foundation model can be adapted to a variety of tasks with some additional
+> fine-tuning on labeled, domain-specific knowledge.
+
+> But fine-tuning alone rarely gives the model the full breadth of knowledge it
+> needs to answer highly specific questions in an ever-changing context. In a
+> 2020 paper, Meta came up with a framework called retrieval-augmented
+> generation to give LLMs access to information beyond their training data. RAG
+> allows LLMs to build on a specialized body of knowledge to answer questions
+> in more accurate way. -- [What is retrieval-augmented generation?](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
+
+Can this approach help finding code, documentation, text passages faster?
 
 > Countless hours spent searching for documentation on peculiar, intellectually
 > uninteresting aspects; the efforts to learn an overly complicated API, often
