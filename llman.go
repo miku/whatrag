@@ -12,7 +12,7 @@ import (
 func main() {
 	myThread := thread.New().AddMessage(
 		thread.NewUserMessage().AddContent(
-			thread.NewTextContent("hello world in haskell"),
+			thread.NewTextContent("what are word vectors?"),
 		),
 	)
 	err := ollama.New().WithEndpoint("http://localhost:11434/api").WithModel("mistral:instruct").
