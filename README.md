@@ -67,6 +67,7 @@ Proliferation of new frameworks and tool categories. Some problems:
 
 * download, models onto machine, copy, packaging, wrapper, customization (e.g. [ollama](https://ollama.com) to run [local models](https://github.com/miku/localmodels))
 * api wrappers, adding custom data to the generation process; general libraries like [llamaindex](https://www.llamaindex.ai/), with [adapters](https://llamahub.ai/), these libraries then use some paid or hosted API, like openai, claude - llama and friends; [langchain](https://www.langchain.com/), ...
+* running models: [llamafile](https://github.com/Mozilla-Ocho/llamafile)
 
 ## lingoose
 
