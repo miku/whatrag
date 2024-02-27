@@ -31,7 +31,7 @@ Can this approach help finding code, documentation, text passages faster?
 > with Google having become a sea of spam in which to hunt for a few useful
 > things. -- [http://antirez.com/news/140](http://antirez.com/news/140)
 
-[...]
+and also:
 
 > I have also learned that LLMs are a bit like Wikipedia and all the video
 > courses scattered on YouTube: **they help those with the will, ability, and
@@ -47,6 +47,7 @@ How do we learn, when and how to use this technology?
 [LeCun on 2023-02-13](https://twitter.com/ylecun/status/1625118108082995203) (780.8K views as of 2024-02-06, [archived](https://web.archive.org/web/20230213173604/https://twitter.com/ylecun/status/1625118108082995203)):
 
 > My unwavering opinion on current (auto-regressive) LLMs
+>
 > 1. They are useful as writing aids.
 > 3. They make stuff up or retrieve stuff approximately.
 > 6. Current LLMs should be used as writing aids, not much more.
@@ -57,5 +58,44 @@ How do we learn, when and how to use this technology?
 > 11. Warning that only a small superficial portion of human knowledge can ever be captured by LLMs.
 > 12. Being clear that better system will be appearing, but they will be based on different principles. They will not be auto-regressive LLMs.
 > [...]
+
+All this does not seem to stop people to build (lots of) stuff.
+
+## LLM tooling
+
+Proliferation of new frameworks and tool categories. Some problems:
+
+* download, models onto machine, copy, packaging, wrapper, customization (e.g. [ollama](https://ollama.com) to run [local models](https://github.com/miku/localmodels))
+* api wrappers, adding custom data to the generation process; general libraries like [llamaindex](https://www.llamaindex.ai/), with [adapters](https://llamahub.ai/), these libraries then use some paid or hosted API, like openai, claude - llama and friends; [langchain](https://www.langchain.com/), ...
+
+## lingoose
+
+Many tools written in Python, but is there something similar in Go?
+
+```
+$ go run examples/hello.go
+2024/02/27 14:41:42 using default ollama endpoint with model stablelm2:1.6b-zephyr-fp16
+Thread:
+user:
+        Type: text
+        Text: tell me a joke about geese
+assistant:
+        Type: text
+        Text: Why did the chicken cross the road?
+
+To get to the other side, of course!
+
+But seriously, here's another one:
+
+What do you call a group of geese with no leader?
+
+A gaggle!
+```
+
+## Tasks
+
+* setup threads, communicate with LLM via API
+* depending on the provider, you may have different options
+
 
 
