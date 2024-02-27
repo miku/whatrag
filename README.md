@@ -95,8 +95,19 @@ A gaggle!
 
 ## Tasks
 
-* setup threads, communicate with LLM via API
-* depending on the provider, you may have different options
+* setup threads, communicate with LLM via API (different options)
+* loading content (e.g. wrappers aroung filetypes, data sources, like pubmed, ...)
+* vector database (or just json file)
+
+Two examples:
+
+* DLF text search (dlfq)
+* wikipedia outlink RAG
+
+## DLFQ
+
+
+
 
 
 
