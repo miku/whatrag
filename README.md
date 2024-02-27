@@ -68,8 +68,9 @@ Proliferation of new frameworks and tool categories. Some problems:
 * download, models onto machine, copy, packaging, wrapper, customization (e.g. [ollama](https://ollama.com) to run [local models](https://github.com/miku/localmodels))
 * api wrappers, adding custom data to the generation process; general libraries like [llamaindex](https://www.llamaindex.ai/), with [adapters](https://llamahub.ai/), these libraries then use some paid or hosted API, like openai, claude - llama and friends; [langchain](https://www.langchain.com/), ...
 * running models: [llamafile](https://github.com/Mozilla-Ocho/llamafile)
+* ...
 
-## lingoose
+## Go LLM framework: lingoose
 
 Many tools written in Python, but is there something similar in Go?
 
@@ -117,7 +118,7 @@ Combining Data: The chosen data segments from the database are combined
 
 Learning from PDFs. 62 files, 146M, mostly arxiv papers.
 
-```
+```shell
 $ go run examples/lingoose/embeddings/knowledge_base/main.go
 Learning Knowledge Base...
 ```
@@ -125,6 +126,5 @@ Learning Knowledge Base...
 ## Follow up questions
 
 * this is all "frozen RAG", where documents are added, compared, but not learned from
-* would something like FAISS or ANNOY be enough, e.g. for just finding similar documents
-
+* would something like FAISS or ANNOY be enough, e.g. for just finding similar documents?
 
