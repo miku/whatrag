@@ -99,10 +99,32 @@ A gaggle!
 * loading content (e.g. wrappers aroung filetypes, data sources, like pubmed, ...)
 * vector database (or just json file)
 
-
 ## Basic RAG example
 
 Splitting the Go 1.22 release notes on newlines, calculating an embedding.
 
 * takes about 4ms for short documents to create an embedding
+
+```shell
+$ go run examples/lingoose/rag/main.go
+2024/02/27 18:00:11 adding 4 docs
+2024/02/27 18:00:11 user interaction
+Combining Data: The chosen data segments from the database are combined
+        with the user’s initial query, creating an expanded prompt.
+```
+
+## Loading files
+
+Learning from PDFs. 62 files, 146M, mostly arxiv papers.
+
+```
+$ go run examples/lingoose/embeddings/knowledge_base/main.go
+Learning Knowledge Base...
+```
+
+## Follow up questions
+
+* this is all "frozen RAG", where documents are added, compared, but not learned from
+* would something like FAISS or ANNOY be enough, e.g. for just finding similar documents
+
 
