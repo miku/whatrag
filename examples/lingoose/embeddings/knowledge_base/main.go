@@ -7,12 +7,12 @@ import (
 	"os"
 
 	"github.com/henomis/lingoose/chat"
-	ollamaembedder "github.com/henomis/lingoose/embedder/ollama"
+	openaiembedder "github.com/henomis/lingoose/embedder/openai"
 	"github.com/henomis/lingoose/index"
 	indexoption "github.com/henomis/lingoose/index/option"
 
 	"github.com/henomis/lingoose/index/vectordb/jsondb"
-	"github.com/henomis/lingoose/llm/ollama"
+	"github.com/henomis/lingoose/llm/openai"
 	"github.com/henomis/lingoose/loader"
 	"github.com/henomis/lingoose/prompt"
 	"github.com/henomis/lingoose/textsplitter"
@@ -27,7 +27,7 @@ func main() {
 
 	index := index.New(
 		jsondb.New().WithPersist("db.json"),
-		ollamaembedder.New(),
+		openaiembedder.New(openaiembedder.AdaEmbeddingV2),
 	).WithIncludeContents(true)
 
 	indexIsEmpty, _ := index.IsEmpty(context.Background())
@@ -39,7 +39,7 @@ func main() {
 		}
 	}
 
-	llmOllama := ollama.NewChat()
+	llmOpenAI := openai.NewChat()
 
 	fmt.Println("Enter a query to search the knowledge base. Type 'quit' to exit.")
 	query := ""
@@ -91,7 +91,7 @@ func main() {
 			},
 		)
 
-		response, err := llmOllama.Chat(context.Background(), chat)
+		response, err := llmOpenAI.Chat(context.Background(), chat)
 		if err != nil {
 			panic(err)
 		}
@@ -106,7 +106,7 @@ func ingestData(index *index.Index) error {
 
 	fmt.Printf("Learning Knowledge Base...")
 
-	loader := loader.NewPDFToTextLoader("./kb").WithPDFToTextPath("/usr/bin/pdftotext")
+	loader := loader.NewPDFToTextLoader("./kb").WithPDFToTextPath("/opt/homebrew/bin/pdftotext")
 
 	documents, err := loader.Load(context.Background())
 	if err != nil {
