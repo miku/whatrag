@@ -1,7 +1,9 @@
-# Ouroboros
+# What RAG?
 
-> [Ouroboros](https://en.wikipedia.org/wiki/Ouroboros), or how to build a
-> retrieval-augmented data generative AI pipeline from scratch
+> Input talk about trying to run RAG w/ Go, [Leipzig
+> Gophers](https://golangleipzig.space/)
+> [#41](https://golangleipzig.space/posts/meetup-41-invitation/), 2024-02-27
+> 1900
 
 ![](static/Chrysopoea.png)
 
