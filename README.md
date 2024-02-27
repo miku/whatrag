@@ -99,15 +99,10 @@ A gaggle!
 * loading content (e.g. wrappers aroung filetypes, data sources, like pubmed, ...)
 * vector database (or just json file)
 
-Two examples:
 
-* DLF text search (dlfq)
-* wikipedia outlink RAG
+## Basic RAG example
 
-## DLFQ
+Splitting the Go 1.22 release notes on newlines, calculating an embedding.
 
-
-
-
-
+* takes about 4ms for short documents to create an embedding
 
