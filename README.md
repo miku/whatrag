@@ -92,4 +92,10 @@ What do you call a group of geese with no leader?
 A gaggle!
 ```
 
+## Tasks
+
+* setup threads, communicate with LLM via API
+* depending on the provider, you may have different options
+
+
 
