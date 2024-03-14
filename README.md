@@ -1,4 +1,4 @@
-# What RAG?
+# What RAG? (WIP)
 
 > Input talk about trying to run RAG w/ Go, [Leipzig
 > Gophers](https://golangleipzig.space/)
@@ -6,6 +6,12 @@
 > 1900
 
 ![](static/Chrysopoea.png)
+
+----
+
+🚧 This material is very much WIP.
+
+----
 
 A large language model can be flaky
 [compressors](https://arxiv.org/pdf/2309.10668.pdf). How to improve reliability
